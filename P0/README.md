@@ -3,3 +3,5 @@
 Probando VSCodeeee...
 
 Siguiente cambio
+
+![](Ejercicio2-img1.gif)
