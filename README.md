@@ -1,7 +1,7 @@
 Mis prácticas de CSAAI:
 
-  1. [CV]
-  2. [Calculadora]:
-  3. [Juego Retro]:
-  4. [Procesado de imágenes]:
-  5. [Realizador de TV]: 
+  1. [P1](https://github.com/Gerardo-Romero/2021-2022-CSAAI/tree/main/P1)
+  2. [P2](https://github.com/Gerardo-Romero/2021-2022-CSAAI/tree/main/P2)
+  3. [P3](https://github.com/Gerardo-Romero/2021-2022-CSAAI/tree/main/P3)
+  4. [P4](https://github.com/Gerardo-Romero/2021-2022-CSAAI/tree/main/P4)
+  5. [P5](https://github.com/Gerardo-Romero/2021-2022-CSAAI/tree/main/P5)
