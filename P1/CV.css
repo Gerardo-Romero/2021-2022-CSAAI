@@ -10,31 +10,79 @@ h1{
     font-size: 40px;
     color: #0f0;
     text-align: center;
-    border: 5px solid #0f0;
-    border-bottom: none;
-    padding: 10px;
-    margin: 100px;
-    margin-bottom: 0px;
+    border: 3px solid #0f0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-left: 17%;
+    margin-right: 17%;
 }
-section{
-    width: 60%;
-    border: 5px solid #0f0;
+h2{
+    font-family: 'matrix';
+    font-size: 25px;
+    color: #0f0;
+    text-align: left;
+    border: 2px solid #0f0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    padding-left: 20px;
+    margin-right: 50%;
+}
+.union{
+        display: flex;
+        padding: 0px;
+        margin: 40px;
+        border: 5px solid #0f0;
+        
+       
+      }
+
+
+.imagen_dni{
+    
     margin: 0px;
-    padding: 10px;
-    flex-wrap: wrap;
-    float: right;
+    padding: 0px;
+    text-align: justify;
+    
+    position:relative;
     
 }
 
-/*aside{
-    width: 40%;
+.borde{
+    padding-top: 6px;
     border: 5px solid #0f0;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+aside{
+
+    width: 30%;
+    border: 5px solid #0f0;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
     margin: 0px;
     padding:10px;
-    text-align: justify;
-    float: left;
-  }*/
+    float: right;
+  }
 
+
+.texto{
+    font-family: 'matrix';
+    font-size: 20px;
+    color: #0f0;
+    text-align: left;
+  }
+
+  article{
+    width: 70%;
+    padding: 20px;
+    float: left;
+    
+}
 
 
 body{
