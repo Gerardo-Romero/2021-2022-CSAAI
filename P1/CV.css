@@ -10,12 +10,13 @@ h1{
     font-size: 40px;
     color: #0f0;
     text-align: center;
-    border: 3px solid #0f0;
+    border: 5px solid #0f0;
     border-left: none;
     border-right: none;
     border-top: none;
-    margin-left: 17%;
-    margin-right: 17%;
+    margin-right: 220px;
+    margin-left: 220px;
+    
 }
 h2{
     font-family: 'matrix';
@@ -30,7 +31,7 @@ h2{
     margin-right: 50%;
 }
 .union{
-        display: flex;
+        display: inline-flex;
         padding: 0px;
         margin: 40px;
         border: 5px solid #0f0;
@@ -43,10 +44,14 @@ h2{
     
     margin: 0px;
     padding: 0px;
-    text-align: justify;
-    
-    position:relative;
-    
+    position: relative;
+}
+
+.gif{
+    left:300px;
+    top: 300px;
+    position: fixed;
+    white-space: nowrap;
 }
 
 .borde{
@@ -67,6 +72,8 @@ aside{
     margin: 0px;
     padding:10px;
     float: right;
+    text-align: justify;
+    flex-wrap: wrap;
   }
 
 
@@ -81,8 +88,18 @@ aside{
     width: 70%;
     padding: 20px;
     float: left;
+    text-align: justify;
+    flex-wrap: wrap;
     
 }
+.gif_izq{
+    position: absolute;
+    left:auto;
+    top:auto;
+}
+
+
+
 
 
 body{
