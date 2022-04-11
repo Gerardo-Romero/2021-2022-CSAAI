@@ -13,12 +13,13 @@ h2{
     font-size: 40px;
     color: rgb(81, 255, 81);
     text-align: left;
-    border: 2px solid rgb(46, 255, 46);
+    border: 3px solid rgb(46, 255, 46);
     border-left: none;
     border-right: none;
     border-top: none;
-    padding-left: 20px;
-    margin-right: 20%;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin-right: 30%;
     text-shadow:0px 0px 8px #0f0;
    
     
@@ -47,7 +48,6 @@ h2{
 }
 
 .borde{
-    padding-top: 6px;
     border: 7px solid rgb(29, 255, 29);
     border-left: none;
     border-right: none;
@@ -60,8 +60,7 @@ aside{
     border-right: none;
     border-top: none;
     border-bottom: none;
-    margin: 0px;
-    padding:10px;
+    
     float: right;
     text-align: justify;
     min-width:min-content;
@@ -72,24 +71,15 @@ aside{
     font-size: 30px;
     color: rgb(49, 255, 49);
     text-align: left;
-    padding-left: 20px;
-    padding-right: 2px;
+    padding-left: 40px;
+    padding-right: 20px;
     text-shadow:0px 0px 6px #0f0;
 }
 
-.texto_lista{
-    font-family: 'matrix';
-    font-size: 30px;
-    color: rgb(58, 255, 58);
-    text-align: left;
-    padding-right: 2px;
-    text-shadow:0px 0px 6px #0f0;
 
-}
 
 article{
     width: 70%;
-    padding: 20px;
     float: left;
     text-align: justify;
     min-width:min-content;
@@ -104,4 +94,16 @@ article{
 
 body{
     background-image: url('Fondo_Negro.jpg');
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+}
+
+.gif_hack{
+    position: relative;
+    text-align: center;
+    top:20px;
+    
 }
