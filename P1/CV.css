@@ -4,23 +4,13 @@
     src: url('binchrt.ttf');
 }
 
-
 h1{
-    font-family: 'matrix';
-    font-size: 40px;
-    color: #0f0;
     text-align: center;
-    border: 5px solid #0f0;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-    margin-right: 220px;
-    margin-left: 220px;
-    
 }
+
 h2{
     font-family: 'matrix';
-    font-size: 25px;
+    font-size: 40px;
     color: #0f0;
     text-align: left;
     border: 2px solid #0f0;
@@ -28,20 +18,17 @@ h2{
     border-right: none;
     border-top: none;
     padding-left: 20px;
-    margin-right: 50%;
+    margin-right: 20%;
 }
 .union{
-        display: inline-flex;
-        padding: 0px;
-        margin: 40px;
-        border: 5px solid #0f0;
-        
-       
-      }
+    display: inline-flex;
+    padding: 0px;
+    margin: 50px;
+    border: 7px solid #0f0;
+}
 
 
 .imagen_dni{
-    
     margin: 0px;
     padding: 0px;
     position: relative;
@@ -56,16 +43,15 @@ h2{
 
 .borde{
     padding-top: 6px;
-    border: 5px solid #0f0;
+    border: 7px solid #0f0;
     border-left: none;
     border-right: none;
     border-top: none;
 }
 
 aside{
-
     width: 30%;
-    border: 5px solid #0f0;
+    border: 7px solid #0f0;
     border-right: none;
     border-top: none;
     border-bottom: none;
@@ -74,17 +60,18 @@ aside{
     float: right;
     text-align: justify;
     flex-wrap: wrap;
-  }
-
+}
 
 .texto{
     font-family: 'matrix';
-    font-size: 20px;
+    font-size: 30px;
     color: #0f0;
     text-align: left;
-  }
+    padding-left: 20px;
+    padding-right: 5px;
+}
 
-  article{
+article{
     width: 70%;
     padding: 20px;
     float: left;
@@ -92,15 +79,12 @@ aside{
     flex-wrap: wrap;
     
 }
+
 .gif_izq{
     position: absolute;
     left:auto;
     top:auto;
 }
-
-
-
-
 
 body{
     background-image: url('Fondo_Negro.jpg');
