@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'matrix';
+    src: url('binchrt.ttf');
+}
+
+body{
+    min-height: 95vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Fondo_Negro.jpg');
+    
+
+}
+
+.play-on-hover{
+    width: 20vw;
+    height: 50vh;
+    background-image: url('entermatrix.gif');
+    background-size:auto;
+    cursor: pointer;
+    
+}
+.play-on-hover:hover{
+    background-image: url('Fondo_Negro.jpg');
+    border: 7px solid rgb(29, 255, 29);
+    
+    
+}
+
+#Calculadora{
+    display: grid;
+    grid-template-columns: repeat(4,50px);
+    grid-template-rows: 100px repeat(5, 50px);
+    padding: 10px;
+    background-color: black;
+    
+    
+}
+
+button{
+    cursor: pointer;
+    color: white;
+    margin: 2px;
+    
+}
+   
+
