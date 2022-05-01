@@ -11,39 +11,83 @@ body{
     align-items: center;
     background-image: url('Fondo_Negro.jpg');
     
+    
 
 }
 
-.play-on-hover{
-    width: 20vw;
-    height: 50vh;
+
+.calc_out{
+    width: 340px;
+    height: 572px;
     background-image: url('entermatrix.gif');
     background-size:auto;
     cursor: pointer;
-    
-}
-.play-on-hover:hover{
-    background-image: url('Fondo_Negro.jpg');
-    border: 7px solid rgb(29, 255, 29);
-    
-    
+    border: 5px solid #0f0;
+    border-radius: 15px; 
 }
 
-#Calculadora{
+.calc_in{
     display: grid;
-    grid-template-columns: repeat(4,50px);
-    grid-template-rows: 100px repeat(5, 50px);
-    padding: 10px;
+    grid-template-columns: repeat(4,70px);
+    grid-template-rows: 110px repeat(7, 70px);
+    padding: 20px;
+    justify-content: center;
+
+}
+
+.display{
+    font-family: 'matrix';
+    font-size: 27px;
+    display: flex;
+    margin-top:10px;
+    margin-bottom: 15px;
+    margin-left: 7px;
+    margin-right: 7px;
+    grid-column: 1 / -1;
+    border:solid #0f0;
+    border-radius: 15px;
+    align-items: flex-end;
     background-color: black;
-    
-    
+    box-shadow: 0 0 10px 0 rgb(77, 255, 60);
 }
 
-button{
+button {
+    
+    font-family: 'matrix';
+    font-size: 27px;
+    
+
+    margin: 7px;
     cursor: pointer;
-    color: white;
-    margin: 2px;
     
-}
+    color: #0f0;
+    background-color: black;
+    border: outset;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 rgb(77, 255, 60);
    
+  }
+  
+  button:hover {
+    box-shadow: 0 0 20px 0 rgb(77, 255, 60);
+    border:outset;
+  }
+  
+  button:active {
+    
+    transform: translateY(4px);
+    box-shadow: 0 0 20px 0 rgb(77, 255, 60), 0 0 20px 0 rgb(77, 255, 60);
+    border:inset;
+  }
 
+  #add{
+      grid-row: span 2;
+  }
+
+  #ac{
+      grid-column: span 2;
+  }
+
+  #bin{
+    grid-column: span 2;
+  }
