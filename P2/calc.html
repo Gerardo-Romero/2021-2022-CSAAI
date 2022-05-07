@@ -5,46 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
-   
-    <link rel = "stylesheet" type="text/css" href="styles.css">
+   <link rel = "stylesheet" type="text/css" href="styles.css">
+   <script src="calc.js" defer></script>
 </head>
+
+<header>
+    <h1>The Matrix Calculator</h1>
+</header>
 
 <body>
     <div class="calc_out">
         <div class="calc_in">
 
-                <div class="display"></div>
-                <button id="ac">AC</button>
+                
+                <div class="pantalla">
+                    <p id="display">0</p>
+                </div>
+                
+                <button id="borrar">AC</button>
 
                 
-                <button>C</button>
-                <button>/</button>
+                <button id="borra1">C</button>
+                <button class="operador" value="/">/</button>
 
 
-                <button id="bin">BIN</button>
-                <button>e</button>
-                <button>^</button>
+                <button id="binario">BIN</button>
+                <button class="operando" value="3.141592">e</button>
+                <button class="operador" value="**">^</button>
                 
             
 
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>X</button>
+                <button class="operando" value="7">7</button>
+                <button class="operando" value="8">8</button>
+                <button class="operando" value="9">9</button>
+                <button class="operador" value="*">X</button>
 
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>-</button>
+                <button class="operando" value="4">4</button>
+                <button class="operando" value="5">5</button>
+                <button class="operando" value="6">6</button>
+                <button class="operador" value="-">-</button>
 
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button id="add">+</button>
+                <button class="operando" value="1">1</button>
+                <button class="operando" value="2">2</button>
+                <button class="operando" value="3">3</button>
+                <button id="add" class="operador" value="+">+</button>
 
-                <button>0</button>
-                <button>.</button>
-                <button>=</button>
+                <button class="operando" value="0">0</button>
+                <button class="operando" value=".">.</button>
+                <button id="igual">=</button>
 
                 
                 
@@ -53,3 +61,4 @@
         </div>
     </div>
 </body>
+</html>
